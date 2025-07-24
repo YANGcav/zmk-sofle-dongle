@@ -76,11 +76,11 @@
 
         layer_1 {
             bindings = <
-&kp GRAVE        &kp F1           &kp F2           &kp F3           &kp F4     &kp F5       &mmv MOVE_UP     &kp F6   &kp F7     &kp F8     &kp F9      &kp F10   &kp MINUS
-&kp BACKSPACE    &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp MINUS  &kp EQUAL    &mmv MOVE_DOWN   &kp F11  &kp F12    &kp MINUS  &kp INSERT  &kp HOME  &kp PAGE_UP
-&kp KP_NUMBER_0  &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp PLUS   &mkp LCLK    &mmv MOVE_LEFT   &trans   &mkp RCLK  &trans     &kp DELETE  &kp END   &kp PAGE_DOWN
-&trans           &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp DOT    &kp ENTER    &mmv MOVE_RIGHT  &trans   &trans     &trans     &trans      &trans    &trans
-&kp C_MUTE       &trans           &trans           &trans           &trans     &trans       &mkp LCLK        &trans   &trans     &trans     &trans      &trans
+&kp GRAVE        &kp F1           &kp F2           &kp F3           &kp F4     &kp F5       &kp PAGE_UP      &kp F6   &kp F7         &kp F8  &kp F9      &kp F10   &kp DEL
+&kp BACKSPACE    &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp MINUS  &kp EQUAL    &kp PAGE_DOWN    &kp F11  &kp F12        &trans  &kp INSERT  &kp HOME  &kp MINUS
+&kp KP_NUMBER_0  &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp PLUS   &trans       &mmv MOVE_LEFT   &trans   &trans         &trans  &kp DELETE  &kp END   &trans
+&trans           &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp DOT    &kp ENTER    &mmv MOVE_RIGHT  &trans   &trans         &trans  &trans      &trans    &trans
+&kp C_MUTE       &trans           &trans           &trans           &trans     &trans       &mkp LCLK        &trans   &kp LG(SPACE)  &trans  &trans      &trans
             >;
 
             display-name = "layer1";
