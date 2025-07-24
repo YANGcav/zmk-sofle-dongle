@@ -30,8 +30,8 @@
 };
 
 &mmv {
-    time-to-max-speed-ms = <400>;
-    acceleration-exponent = <1>;
+    time-to-max-speed-ms = <500>;
+    acceleration-exponent = <3>;
 };
 
 / {
@@ -51,11 +51,11 @@
 
         layer0 {
             bindings = <
-&kp ESC          &kp N1        &kp N2     &kp N3        &kp N4  &kp N5       &kp UP_ARROW     &kp N6     &kp N7     &kp N8     &kp N9               &kp N0          &kp BACKSPACE
-&kp TAB          &kp Q         &kp W      &kp E         &kp R   &kp T        &kp DOWN_ARROW   &kp Y      &kp U      &kp I      &kp O                &kp P           &kp BSLH
-&kp LCTRL        &kp A         &kp S      &kp D         &kp F   &kp G        &kp LEFT_ARROW   &kp H      &kp J      &kp K      &kp L                &kp SEMI        &kp APOS
-&kp LEFT_SHIFT   &kp Z         &kp X      &kp C         &kp V   &kp B        &kp RIGHT_ARROW  &kp N      &kp M      &kp COMMA  &kp DOT              &kp FSLH        &kp ENTER
-&kp PRINTSCREEN  &kp LEFT_WIN  &kp LCTRL  &kp LEFT_ALT  &mo 1   &kp SPACE    &kp ENTER        &kp SPACE  &kp ENTER  &mo 2      &kp INTERNATIONAL_2  &kp LANGUAGE_1
+&kp ESC          &kp N1        &kp N2     &kp N3        &kp N4  &kp N5       &kp UP_ARROW     &kp N6     &kp N7          &kp N8     &kp N9            &kp N0             &kp BACKSPACE
+&kp TAB          &kp Q         &kp W      &kp E         &kp R   &kp T        &kp DOWN_ARROW   &kp Y      &kp U           &kp I      &kp O             &kp P              &kp BSLH
+&kp LCTRL        &kp A         &kp S      &kp D         &kp F   &kp G        &kp LEFT_ARROW   &kp H      &kp J           &kp K      &kp L             &kp SEMI           &kp APOS
+&kp LEFT_SHIFT   &kp Z         &kp X      &kp C         &kp V   &kp B        &kp RIGHT_ARROW  &kp N      &kp M           &kp COMMA  &kp DOT           &kp FSLH           &kp ENTER
+&kp PRINTSCREEN  &kp LEFT_WIN  &kp LCTRL  &kp LEFT_ALT  &mo 1   &kp SPACE    &kp ENTER        &kp SPACE  &kp LANGUAGE_1  &mo 2      &kp LEFT_BRACKET  &kp RIGHT_BRACKET
             >;
 
             sensor-bindings = <&inc_dec_kp LEFT_BRACKET RIGHT_BRACKET>;
@@ -64,11 +64,11 @@
 
         layer_1 {
             bindings = <
-&kp GRAVE        &kp F1           &kp F2           &kp F3           &kp F4     &kp F5       &kp PAGE_UP    &kp F6   &kp F7    &kp F8    &kp F9     &kp F10           &kp DEL
-&kp BACKSPACE    &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp MINUS  &kp EQUAL    &kp PAGE_DOWN  &kp F11  &kp F12   &kp UP    &trans     &kp LEFT_BRACKET  &kp RIGHT_BRACKET
-&trans           &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp PLUS   &trans       &kp END        &trans   &kp LEFT  &kp DOWN  &kp RIGHT  &kp LEFT_BRACKET  &kp RIGHT_BRACKET
-&kp KP_NUMBER_0  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp DOT    &kp ENTER    &kp INS        &trans   &trans    &trans    &kp F11    &kp F12           &trans
-&kp C_MUTE       &trans           &trans           &trans           &trans     &trans       &kp HOME       &trans   &trans    &trans    &trans     &trans
+&kp GRAVE        &kp F1           &kp F2           &kp F3           &kp F4     &kp F5       &mmv MOVE_UP     &kp F6   &kp F7     &kp F8  &kp F9      &kp F10   &kp DEL
+&kp BACKSPACE    &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp MINUS  &kp EQUAL    &mmv MOVE_DOWN   &kp F11  &kp F12    &trans  &kp INSERT  &kp HOME  &kp PAGE_UP
+&trans           &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp PLUS   &mkp LCLK    &mmv MOVE_LEFT   &trans   &mkp RCLK  &trans  &kp DELETE  &kp END   &kp PAGE_DOWN
+&kp KP_NUMBER_0  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp DOT    &kp ENTER    &mmv MOVE_RIGHT  &trans   &trans     &trans  &trans      &trans    &trans
+&kp C_MUTE       &trans           &trans           &trans           &trans     &trans       &mkp LCLK        &trans   &trans     &trans  &trans      &trans
             >;
 
             display-name = "layer1";
