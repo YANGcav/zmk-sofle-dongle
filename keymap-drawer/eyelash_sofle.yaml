@@ -26,7 +26,7 @@ layers:
   - I
   - O
   - P
-  - {t: _, h: \}
+  - {t: \, s: '|'}
   - $$mdi:apple-keyboard-control$$
   - A
   - S
@@ -61,7 +61,7 @@ layers:
   - $$mdi:keyboard-space$$
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - $$mdi:keyboard-space$$
-  - {t: 'Gui+$$mdi:keyboard-space$$', h: LANGUAGE 1}
+  - LANGUAGE 1
   - '2'
   - {t: '[', s: '{'}
   - {t: ']', s: '}'}
@@ -78,7 +78,7 @@ layers:
   - F8
   - F9
   - F10
-  - $$mdi:backspace-reverse-outline$$
+  - {t: '-', s: _}
   - {t: '$$mdi:backspace$$', type: backspace}
   - KP 7
   - KP 8
@@ -88,7 +88,7 @@ layers:
   - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
   - F11
   - F12
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '-', s: _}
   - Ins
   - HOME
   - PgUp
