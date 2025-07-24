@@ -92,7 +92,7 @@ layers:
   - Ins
   - HOME
   - PgUp
-  - {t: '$$mdi:transfer$$', type: trans}
+  - KP 0
   - KP 4
   - KP 5
   - KP 6
@@ -105,7 +105,7 @@ layers:
   - $$mdi:backspace-reverse-outline$$
   - END
   - PgDn
-  - KP 0
+  - {t: '$$mdi:transfer$$', type: trans}
   - KP 1
   - KP 2
   - KP 3
