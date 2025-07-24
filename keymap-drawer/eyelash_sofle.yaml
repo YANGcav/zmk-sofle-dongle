@@ -26,7 +26,7 @@ layers:
   - I
   - O
   - P
-  - {t: \, s: '|'}
+  - {t: _, h: \}
   - $$mdi:apple-keyboard-control$$
   - A
   - S
@@ -61,7 +61,7 @@ layers:
   - $$mdi:keyboard-space$$
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - $$mdi:keyboard-space$$
-  - LANGUAGE 1
+  - {t: 'Gui+$$mdi:keyboard-space$$', h: LANGUAGE 1}
   - '2'
   - {t: '[', s: '{'}
   - {t: ']', s: '}'}
