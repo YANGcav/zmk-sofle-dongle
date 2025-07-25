@@ -26,7 +26,7 @@ layers:
   - I
   - O
   - P
-  - {t: \, h: '-'}
+  - {t: '-', h: \, s: _}
   - $$mdi:apple-keyboard-control$$
   - A
   - S
@@ -38,13 +38,13 @@ layers:
   - J
   - K
   - L
-  - {t: ;, h: '''', s: ':'}
+  - {t: '''', h: ;, s: '"'}
   - {t: '`', s: '~'}
   - $$mdi:apple-keyboard-shift$$
-  - Z
-  - X
-  - C
-  - V
+  - {t: Z, h: Ctl+Z}
+  - {t: X, h: Ctl+X}
+  - {t: C, h: Ctl+C}
+  - {t: V, h: Ctl+V}
   - B
   - $$mdi:arrow-right-bold$$
   - N
