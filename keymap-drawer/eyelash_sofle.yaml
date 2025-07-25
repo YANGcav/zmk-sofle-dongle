@@ -1,7 +1,7 @@
 layout: {zmk_keyboard: eyelash_sofle}
 layers:
   LAYER0:
-  - {t: '$$mdi:keyboard-esc$$', h: '$$mdi:backspace-reverse-outline$$'}
+  - $$mdi:keyboard-esc$$
   - {t: '1', s: '!'}
   - {t: '2', s: '@'}
   - {t: '3', s: '#'}
@@ -11,8 +11,8 @@ layers:
   - {t: '6', s: ^}
   - {t: '7', s: '&'}
   - {t: '8', s: '*'}
-  - {t: '9', s: (}
-  - {t: '0', s: )}
+  - {t: '9', h: '[', s: (}
+  - {t: ']', h: '0', s: '}'}
   - {t: '$$mdi:backspace$$', type: backspace}
   - $$mdi:keyboard-tab$$
   - Q
@@ -31,7 +31,7 @@ layers:
   - A
   - S
   - D
-  - F
+  - {t: F, h: Ctl+F}
   - G
   - $$mdi:arrow-left-bold$$
   - H
@@ -62,9 +62,9 @@ layers:
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - $$mdi:keyboard-space$$
   - {t: LANGUAGE 1, h: 'Gui+$$mdi:keyboard-space$$'}
-  - {t: '$$mdi:keyboard-return$$', type: enter}
-  - {t: '[', s: '{'}
-  - {t: ']', s: '}'}
+  - $$mdi:apple-keyboard-control$$
+  - {t: HOME, h: END}
+  - $$mdi:backspace-reverse-outline$$
   LAYER1:
   - {t: '`', s: '~'}
   - F1
@@ -260,3 +260,6 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
+combos:
+- p: [39, 15]
+  k: Ctl+W
