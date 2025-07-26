@@ -29,7 +29,10 @@
     delay-ms = <0>;                   // 0
 };
 
-&mmv { time-to-max-speed-ms = <350>; };
+&mmv {
+    time-to-max-speed-ms = <325>;
+    acceleration-exponent = <2>;
+};
 
 / {
     scroll_encoder: scroll_encoder {
