@@ -260,8 +260,3 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-combos:
-- p: [39, 15]
-  k: Sft+W
-- p: [39, 18]
-  k: Sft+T
