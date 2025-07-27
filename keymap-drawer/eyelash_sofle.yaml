@@ -16,10 +16,10 @@ layers:
   - {t: '$$mdi:backspace$$', type: backspace}
   - $$mdi:keyboard-tab$$
   - Q
-  - W
+  - '&tb_web_closetab'
   - E
   - R
-  - T
+  - '&tb_web_newtab'
   - $$mdi:arrow-down-bold$$
   - Y
   - U
