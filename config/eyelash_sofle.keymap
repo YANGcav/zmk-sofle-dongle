@@ -67,8 +67,6 @@
         label = "TB_WEB_NEWTAB";
         #binding-cells = <0>;
         bindings = <&kp T>, <&kp LC(T)>, <&kp LS(LC(T))>;
-
-        tapping-term-ms = <250>;
     };
 
     tb_web_closetab: tb_web_closetab {
@@ -76,26 +74,12 @@
         label = "TB_WEB_CLOSETAB";
         #binding-cells = <0>;
         bindings = <&kp W>, <&kp LC(W)>, <&kp LS(LC(W))>;
-
-        tapping-term-ms = <250>;
     };
 
     behaviors {
     };
 
-    combos {
-        compatible = "zmk,combos";
-
-        shift_w {
-            bindings = <&kp LS(W)>;
-            key-positions = <39 15>;
-        };
-
-        shift_t {
-            bindings = <&kp LS(T)>;
-            key-positions = <39 18>;
-        };
-    };
+    combos { compatible = "zmk,combos"; };
 
     keymap {
         compatible = "zmk,keymap";
