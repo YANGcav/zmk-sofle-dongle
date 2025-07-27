@@ -66,14 +66,18 @@
         compatible = "zmk,behavior-tap-dance";
         label = "TB_WEB_NEWTAB";
         #binding-cells = <0>;
-        bindings = <&kp T>, <&kp LC(T)>;
+        bindings = <&kp T>, <&kp LC(T)>, <&kp LS(LC(T))>;
+
+        tapping-term-ms = <250>;
     };
 
     tb_web_closetab: tb_web_closetab {
         compatible = "zmk,behavior-tap-dance";
         label = "TB_WEB_CLOSETAB";
         #binding-cells = <0>;
-        bindings = <&kp W>, <&kp LC(W)>;
+        bindings = <&kp W>, <&kp LC(W)>, <&kp LS(LC(W))>;
+
+        tapping-term-ms = <250>;
     };
 
     behaviors {
