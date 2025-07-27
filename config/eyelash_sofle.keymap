@@ -68,7 +68,7 @@
         #binding-cells = <0>;
         bindings = <&kp T>, <&kp RC(T)>, <&kp LC(LS(T))>;
 
-        tapping-term-ms = <300>;
+        tapping-term-ms = <200>;
     };
 
     tb_web_closetab: tb_web_closetab {
@@ -77,7 +77,7 @@
         #binding-cells = <0>;
         bindings = <&kp W>, <&kp RC(W)>, <&kp LC(LS(W))>;
 
-        tapping-term-ms = <300>;
+        tapping-term-ms = <200>;
     };
 
     behaviors {
