@@ -98,11 +98,11 @@
 
         layer_2 {
             bindings = <
-&trans  &trans  &trans               &trans  &trans     &trans                 &msc SCRL_UP     &trans  &trans          &trans          &trans           &trans  &trans
-&trans  &trans  &hm LC(LS(W)) LC(W)  &trans  &mkp MCLK  &hm LS(LC(T)) LC(T)    &msc SCRL_DOWN   &trans  &mkp LCLK       &mmv MOVE_UP    &mkp RCLK        &trans  &trans
-&trans  &trans  &trans               &trans  &trans     &trans                 &msc SCRL_LEFT   &trans  &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &trans  &trans
-&trans  &trans  &trans               &trans  &trans     &trans                 &msc SCRL_RIGHT  &trans  &trans          &trans          &trans           &trans  &trans
-&trans  &trans  &trans               &trans  &trans     &trans                 &mkp LCLK        &trans  &trans          &trans          &trans           &trans
+&trans  &trans     &trans               &trans     &trans     &trans                 &msc SCRL_UP     &trans  &trans          &trans          &trans           &trans  &trans
+&trans  &trans     &hm LC(LS(W)) LC(W)  &trans     &mkp MCLK  &hm LS(LC(T)) LC(T)    &msc SCRL_DOWN   &trans  &mkp LCLK       &mmv MOVE_UP    &mkp RCLK        &trans  &trans
+&trans  &trans     &kp LC(S)            &kp LS(D)  &trans     &trans                 &msc SCRL_LEFT   &trans  &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &trans  &trans
+&trans  &kp LC(Z)  &trans               &trans     &trans     &trans                 &msc SCRL_RIGHT  &trans  &trans          &trans          &trans           &trans  &trans
+&trans  &trans     &trans               &trans     &trans     &trans                 &mkp LCLK        &trans  &trans          &trans          &trans           &trans
             >;
 
             label = "LAYER2";
