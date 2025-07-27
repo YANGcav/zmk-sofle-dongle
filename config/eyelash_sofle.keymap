@@ -86,9 +86,14 @@
     combos {
         compatible = "zmk,combos";
 
-        tapclose {
-            bindings = <&kp LC(W)>;
+        shift_w {
+            bindings = <&kp LS(W)>;
             key-positions = <39 15>;
+        };
+
+        shift_t {
+            bindings = <&kp LS(T)>;
+            key-positions = <39 18>;
         };
     };
 
