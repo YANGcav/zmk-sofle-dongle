@@ -2,8 +2,8 @@ layout: {zmk_keyboard: eyelash_sofle}
 layers:
   LAYER0:
   - $$mdi:keyboard-esc$$
-  - {t: '1', s: '!'}
-  - {t: '2', s: '@'}
+  - {t: '1', h: KP 1}
+  - {t: '2', h: KP 2}
   - {t: '3', s: '#'}
   - {t: '4', h: F9}
   - {t: '5', h: F10, s: '%'}
