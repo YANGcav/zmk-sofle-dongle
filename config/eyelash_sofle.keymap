@@ -79,7 +79,7 @@
 &kp PRINTSCREEN  &kp LEFT_CONTROL  &kp LEFT_WIN  &kp LEFT_ALT  &mo 1            &hml 2 SPACE    &kp ENTER        &kp SPACE        &hm LG(SPACE) LANGUAGE_1  &kp RCTRL  &hm END HOME         &kp DEL
             >;
 
-            sensor-bindings = <&inc_dec_kp LEFT_BRACKET RIGHT_BRACKET>;
+            sensor-bindings = <&inc_dec_kp RIGHT_BRACKET LEFT_BRACKET>;
             display-name = "LAYER0";
         };
 
