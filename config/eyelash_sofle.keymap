@@ -99,9 +99,9 @@
         layer_2 {
             bindings = <
 &trans  &kp LC(NUMBER_1)  &kp LC(NUMBER_2)  &kp LC(NUMBER_3)  &kp LC(NUMBER_4)  &kp LC(N5)    &msc SCRL_UP     &trans  &trans          &trans          &trans           &trans  &trans
-&trans  &trans            &kp LC(W)         &trans            &trans            &kp LC(T)     &msc SCRL_DOWN   &trans  &mkp LCLK       &mmv MOVE_UP    &mkp RCLK        &trans  &trans
-&trans  &trans            &kp LC(S)         &kp LS(D)         &trans            &trans        &msc SCRL_LEFT   &trans  &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &trans  &trans
-&trans  &trans            &trans            &trans            &trans            &trans        &msc SCRL_RIGHT  &trans  &trans          &trans          &trans           &trans  &trans
+&trans  &trans            &kp LC(W)         &kp U             &kp LC(R)         &kp LC(T)     &msc SCRL_DOWN   &trans  &mkp LCLK       &mmv MOVE_UP    &mkp RCLK        &trans  &trans
+&trans  &trans            &kp LC(S)         &kp K             &kp J             &kp H         &msc SCRL_LEFT   &trans  &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &trans  &trans
+&trans  &kp SLASH         &trans            &trans            &trans            &kp M         &msc SCRL_RIGHT  &trans  &trans          &trans          &trans           &trans  &trans
 &trans  &trans            &trans            &trans            &trans            &trans        &mkp LCLK        &trans  &trans          &trans          &trans           &trans
             >;
 
